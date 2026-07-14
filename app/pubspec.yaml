@@ -1,0 +1,25 @@
+name: hippocampusflow
+description: Camera-first AI assistant for the physical world.
+publish_to: "none"
+version: 0.2.0
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1      # state management
+  go_router: ^14.2.0            # navigation with auth redirects
+  dio: ^5.7.0                   # HTTP client with interceptors
+  flutter_secure_storage: ^9.2.2 # encrypted token storage
+  camera: ^0.11.0               # camera preview + capture (webcam on Chrome)
+  http_parser: ^4.0.2           # to set the image content-type on upload
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
