@@ -1,3 +1,23 @@
+
+
+
+## PayPal AI Hackathon 2026 Update
+
+This project was significantly updated for the **PayPal AI Hackathon**.
+
+**What was added:**
+- PayPal Developer Platform (Sandbox) integration
+- Ability to take real payment actions after AI vision analysis (especially on receipts and products)
+- Human-in-the-loop confirmation before any money moves
+
+**Core flow for the hackathon:**
+Scan with camera → AI specialist agents understand the image (receipt/product) → Structured result → User can pay / take action via PayPal Sandbox.
+
+**AI used:** Anthropic (Haiku classifier + Sonnet agents)  
+**Payments:** PayPal Orders API 
+
+
+
 # HippocampusFlow 🧠📷
 
 Camera-first AI assistant: point your camera at anything and get
